@@ -30,13 +30,3 @@ The coloured boxes are stand-ins for photos. Add images to an `images/` folder a
 ## Brand colours
 
 Change `--brand` (gold accent) and the fonts at the top of `styles.css`.
-
-## Staging
-
-Staging is served by GitHub Pages straight from the `claude/admiring-brown-bxnrg7` branch
-(Settings → Pages → Deploy from a branch → that branch, `/ (root)`):
-https://robinbannis.github.io/firstapp/
-
-The root `index.html` redirects there, and `.nojekyll` makes Pages serve files as they are.
-The page carries `<meta name="robots" content="noindex">` so search engines skip staging —
-remove that line when it goes to lifesanctuary.church.
